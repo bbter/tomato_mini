@@ -1,0 +1,20 @@
+<view class="div1" id="id-{{number}}">{{message}}</view>
+
+<view wx:if="{{condition}}">乌拉拉了 </view>
+<view wx:else>我是不显示的 </view>
+<view wx:for="{{array}}" wx:key="index">
+  {{index}}: {{item.message}}
+</view>
+
+<view>{{str}}</view>
+<button bindtap="reverseStr" >翻转字符串按钮</button>
+<view wx:for="{{arr}}" wx:key="index">
+  {{index}},{{item}}
+</view>
+<button bindtap="pushItem">PUSH</button>
+
+<view>{{obj.id}}:{{obj.text}}</view>
+<button bindtap="changeObjText">change</button>
+
+<view class="{{xx ? 'active' : ''}}">我会改变颜色</view>
+<button bindtap="changeColor">改变颜色</button>
