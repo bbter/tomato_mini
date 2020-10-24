@@ -1,22 +1,23 @@
 {
-  "pages":[
+  "pages": [
+    "pages/login/login",
+    "pages/binding/binding",
     "pages/home/home",
-    "pages/index/index",
-    "pages/test/test",
-    "pages/logs/logs"
+    "pages/me/me",
+    "pages/tomato/tomato"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "番茄闹钟",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
-  "tabBar":{
+  "tabBar": {
     "color": "#515151",
-    "selectedColor":"#F6705A",
-    "backgroundColor":"#fff",
+    "selectedColor": "#F6705A",
+    "backgroundColor": "#fff",
     "borderStyle": "black",
-    "list":[
+    "list": [
       {
         "pagePath": "pages/home/home",
         "text": "专注",
@@ -30,11 +31,12 @@
         "selectedIconPath": "images/total-active.png"
       },
       {
-        "pagePath": "pages/test/test",
+        "pagePath": "pages/me/me",
         "text": "我的",
         "iconPath": "images/me.png",
         "selectedIconPath": "images/me-active.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
