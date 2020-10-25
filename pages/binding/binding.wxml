@@ -9,5 +9,4 @@
   <t-button text="注册" type="change" size="mini" wx:else></t-button>
   <view class="tips" bindtap="goToSignUp" wx:if="{{isBinding}}">还没有PC账号，注册吧兄弟 (点击注册)</view>
   <view class="tips" bindtap="goToBadding" wx:else>绑定PC账号，立即同步数据</view>
-  <image src="../../images/tomato.png" class="bg"></image>
 </view>
